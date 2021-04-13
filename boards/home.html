@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
     <meta charset="utf-8">
@@ -19,8 +19,9 @@
         <div class="bg-white border-bottom">
             <div class="container-fluid">
                 <div class="d-flex justify-content-between">
-                    <div class="d-flex align-items-center">
-                        <div class="my-2"><span class="text-nowrap font-weight-bold h5">Wiley Journal Insights</span></div>
+                    <div class="d-flex flex-shrink-1 align-items-center" style="min-width: 0;">
+                        <div class="text-nowrap flex-shrink-0 flex-nowrap my-2"><span class="text-nowrap font-weight-bold h5">Wiley Journal Insights</span></div>
+                        <div class="d-flex flex-shrink-1 align-self-stretch ml-2" style="min-width: 0;"><button class="btn btn-link btn-sm d-inline-flex flex-shrink-1 align-items-center w-100" type="button" data-toggle="modal" data-target="#modal--change-context"><span class="text-nowrap text-truncate">Angewandte Chemie International Edition</span><span class="mdi mdi-sm mdi-pencil ml-1"></span></button></div>
                     </div>
                     <div class="d-flex">
                         <div class="d-flex">
@@ -50,7 +51,7 @@
                         <div class="btn-group d-none d-md-inline-flex" role="group"><button class="btn btn-secondary btn-sm d-flex flex-column justify-content-center align-items-center p-1" type="button" style="max-width: 40px;"><span class="mdi mdi-filter-plus mdi-sm"></span><span class="text-center d-inline-flex flex-grow-1 align-items-center" style="font-size: 10px;line-height: 12px;">Add filters</span></button></div><button class="btn btn-secondary text-white d-inline-flex d-md-none align-items-center" type="button"><span class="mdi-filter mdi mr-1"></span><span class="text-center">Manage filters</span></button>
                     </div>
                     <div class="d-none d-md-flex flex-grow-1 p-md-1">
-                        <div class="bg-white d-flex p-1 w-100" style="box-shadow: inset 0 .5rem 1rem rgba(0,0,0,.15);"><button class="btn btn-secondary btn-sm d-inline-flex flex-column p-0 border-0" type="button" style="min-width: 150px;"><span class="d-flex flex-grow-1 pl-2 pr-1 py-1 w-100"><span class="d-inline-flex flex-column flex-grow-1 justify-content-start align-items-start" style="font-size: 13px;line-height: 15px;"><span>Journal title</span><span class="font-weight-normal">Transfusion</span></span><span class="mdi mdi-close-circle mdi-sm ml-1"></span></span><span class="bg-light d-flex w-100 border-bottom border-secondary" style="height: 3px;"><span class="bg-primary d-inline-flex w-25"></span></span></button></div>
+                        <div class="bg-white d-flex p-1 w-100" style="box-shadow: inset 0 .5rem 1rem rgba(0,0,0,.15);"><button class="btn btn-secondary btn-sm d-inline-flex flex-column p-0 border-0" type="button" style="min-width: 150px;"><span class="d-flex flex-grow-1 pl-2 pr-1 py-1 w-100"><span class="d-inline-flex flex-column flex-grow-1 justify-content-start align-items-start" style="font-size: 13px;line-height: 15px;"><span>Year</span><span class="font-weight-normal">2018</span></span><span class="mdi mdi-close-circle mdi-sm ml-1"></span></span><span class="bg-light d-flex w-100 border-bottom border-secondary" style="height: 3px;"><span class="bg-primary d-inline-flex w-25"></span></span></button></div>
                     </div>
                     <div class="d-flex align-items-center p-md-1">
                         <div class="btn-group d-none d-md-inline-flex" role="group"><button class="btn btn-secondary btn-sm d-flex flex-column justify-content-center align-items-center p-1" type="button" style="max-width: 40px;"><span class="mdi mdi-filter-remove mdi-sm"></span><span class="text-center d-inline-flex flex-grow-1 align-items-center" style="font-size: 10px;line-height: 12px;">Clear filters</span></button><button class="btn btn-secondary btn-sm d-flex flex-column justify-content-center align-items-center p-1" type="button" style="max-width: 40px;"><span class="mdi mdi-filter mdi-sm"></span><span class="text-center d-inline-flex flex-grow-1 align-items-center" style="font-size: 10px;line-height: 12px;">Manage filters</span></button><button class="btn btn-secondary btn-sm d-flex flex-column justify-content-center align-items-center p-1" type="button" style="max-width: 40px;"><span class="mdi mdi-undo mdi-sm"></span><span class="text-center d-inline-flex flex-grow-1 align-items-center" style="font-size: 10px;line-height: 12px;">Undo</span></button><button class="btn btn-secondary btn-sm d-flex flex-column justify-content-center align-items-center p-1" type="button" style="max-width: 40px;"><span class="mdi mdi-redo mdi-sm"></span><span class="text-center d-inline-flex flex-grow-1 align-items-center" style="font-size: 10px;line-height: 12px;">Redo</span></button><button class="btn btn-secondary btn-sm d-flex flex-column justify-content-center align-items-center p-1" type="button" style="max-width: 40px;"><span class="mdi mdi-magnify mdi-sm"></span><span class="text-center d-inline-flex flex-grow-1 align-items-center" style="font-size: 10px;line-height: 12px;">Search</span></button></div><button class="btn btn-secondary text-white d-inline-flex d-md-none align-items-center" type="button"><span class="mdi-magnify mdi mr-1"></span><span class="text-center">Search</span></button>
@@ -173,6 +174,52 @@
             </div>
         </div>
     </footer>
+    <div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal--change-context">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Change context</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <section class="border-bottom mb-3">
+                            <p>You are currently browsing data for:</p>
+                            <p>Journal - <strong>Angewandte Chemie International Edition</strong></p>
+                        </section>
+                        <section>
+                            <form class="text-center">
+                                <div class="form-group"><label>Context type</label><select class="form-control" id="selectContext">
+                                        <option value="" selected="">Select context type</option>
+                                        <option value="13">Journal</option>
+                                        <option value="14">Society</option>
+                                        <option value="15">Subject</option>
+                                    </select></div>
+                                <div class="form-group d-none" id="formGroupSociety"><label>Select society</label><select class="form-control">
+                                        <option value="" selected="">Select society</option>
+                                        <option value="13">AAA - American Association for Anatomy</option>
+                                        <option value="13">AAAS - American Association for the Advancement of Science</option>
+                                        <option value="13">AAAT - The American Acadamy of Addiction Psychiatry (AAAP)</option>
+                                    </select></div>
+                                <div class="form-group d-none" id="formGroupJournal"><label>Select journal</label><select class="form-control">
+                                        <option value="" selected="">Select journal</option>
+                                        <option value="13">AAA - American Association for Anatomy</option>
+                                        <option value="13">AAAS - American Association for the Advancement of Science</option>
+                                        <option value="13">AAAT - The American Acadamy of Addiction Psychiatry (AAAP)</option>
+                                    </select></div>
+                                <div class="form-group d-none" id="formGroupSubject"><label>Select subject</label><select class="form-control">
+                                        <option value="" selected="">Select subject</option>
+                                        <option value="13">AAA - American Association for Anatomy</option>
+                                        <option value="13">AAAS - American Association for the Advancement of Science</option>
+                                        <option value="13">AAAT - The American Acadamy of Addiction Psychiatry (AAAP)</option>
+                                    </select></div>
+                            </form>
+                        </section>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Change</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/js/chart.min.js"></script>
